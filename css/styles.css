@@ -1,0 +1,139 @@
+#google-wapper {
+	position: relative;
+}
+
+#header {
+	float: right;
+	height: 30px;
+	line-height: 30px; /* requires a static height. property forces text the vertical align */
+	margin: 10px 10px 0 0;
+	position: relative;
+}
+
+#app-icons {
+	position: absolute;
+	margin-top: 50px;
+	width: 250px;
+	margin-left: 40px;
+}
+
+.icon {	
+	height: 64px;
+	width: 64px;
+	float: left;
+	background-image: url('https://ssl.gstatic.com/gb/images/v1_8758f7bb.png');
+	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+	box-sizing: border-box;
+}
+.icon:hover {
+	border: solid .1px;
+}
+.icon.one {
+	background-position: -0px -75px;
+	background-size: 92px 2541px;
+}
+.icon.two {
+	background-position: -0px -144px;
+	background-size: 92px 2541px;
+}
+.icon.three {
+	background-position: -0px -350px;
+	background-size: 92px 2541px;
+}
+.icon.four {
+	background-position: -0px -450px;
+	background-size: 92px 2541px;
+}
+.icon.five {
+	background-position: -0px -555px;
+	background-size: 92px 2541px;
+}
+.icon.six {
+	background-position: -0px -690px;
+	background-size: 92px 2541px;
+}
+.icon.seven {
+	background-position: -0px -800px;
+	background-size: 92px 2541px;
+}
+.icon.eight {
+	background-position: -0px -872px;
+	background-size: 92px 2541px;
+}
+.icon.nine {
+	background-position: -0px -940px;
+	background-size: 92px 2541px;
+}
+.header-item {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+.header-item.grid {
+	background-image: url('https://ssl.gstatic.com/gb/images/v1_8758f7bb.png');
+	height: 30px;
+	width: 30px;
+	background-position: -35px -311px;
+	background-size: 92px 2541px;
+	opacity: .55;
+}
+
+.header-item.bell {
+	background-image: url('https://ssl.gstatic.com/gb/images/v1_8758f7bb.png');
+	background-position: -35px -1675px;
+	background-size: 92px 2541px;
+	/*background-color: rgba(0,0,0,.55);*/  /*black with 55% transparency */
+	background-color: #aaa;
+	border-radius: 50%;
+	box-sizing: border-box;  /* impacts the box model. Can negate the padding. Guarantees width is not exceeded */
+	/*box-sizing makes div plus padding equal width*/
+	margin: 5px 10px 5px 5px;
+	padding: 0 2px;
+	text-align: center;
+	color: #fff;
+	height: 20px;
+	width: 20px;
+}
+
+.header-item.letter {
+	height: 30px;
+	width: 30px;
+	background-color: #aaa;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	/*line-height: 30px;*/
+}
+
+#google-logo-div {
+	height: 231px;
+	text-align: center; /*effectively aligns the image because the image is in a div parent */
+	/*background-color: #000;*/
+	padding-top: 150px;
+}
+
+#search-form {
+	text-align: center;
+	/* these three are needed to position the mic position:absolute */
+	position: relative;
+	width: 670px;
+	margin: auto;
+
+}
+
+input {
+	width: 670px;
+	height: 36px;
+	font-size: 18px;
+	padding-left: 5px;
+}
+
+#mic {
+	position: absolute;
+	right: 10px;
+	top: 2px;
+}
+#mic img {
+	height: 35px; /* 36px is also the height of the input box */
+}
